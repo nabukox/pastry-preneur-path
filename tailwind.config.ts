@@ -57,6 +57,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "hero-gradient": {
+          start: "hsl(var(--hero-gradient-start))",
+          end: "hsl(var(--hero-gradient-end))",
+        },
+        "cta-primary": "hsl(var(--cta-primary))",
+        "cta-primary-hover": "hsl(var(--cta-primary-hover))",
+        "value-highlight": "hsl(var(--value-highlight))",
+        "section-alt": "hsl(var(--section-alt))",
+      },
+      boxShadow: {
+        soft: "var(--shadow-soft)",
+        strong: "var(--shadow-strong)",
       },
       borderRadius: {
         lg: "var(--radius)",
