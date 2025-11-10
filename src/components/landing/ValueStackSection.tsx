@@ -82,7 +82,7 @@ export const ValueStackSection = () => {
             size="xl"
             className="mb-6"
           >
-            ¡SÍ, QUIERO EL PACK COMPLETO AHORA!
+            ¡SÍ, QUIERO EL PACK <br />COMPLETO AHORA!
           </Button>
           
           <div className="flex flex-wrap justify-center gap-6 mt-6">

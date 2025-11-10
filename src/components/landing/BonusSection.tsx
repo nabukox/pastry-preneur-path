@@ -1,6 +1,6 @@
 import { Flame, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import ebookVentas from "@/assets/ebook-ventas-mockup.png";
+import ebookVentas from "@/assets/book-arte-vender-mouckup.jpg";
 
 export const BonusSection = () => {
   const handleCTA = () => {

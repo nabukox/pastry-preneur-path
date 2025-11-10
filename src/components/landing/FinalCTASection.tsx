@@ -39,7 +39,7 @@ export const FinalCTASection = () => {
           variant="cta" 
           size="xl"
         >
-          SÍ, QUIERO MI NEGOCIO DE BROWNIES
+          SÍ, QUIERO MI NEGOCIO<br /> DE BROWNIES
         </Button>
       </div>
     </section>

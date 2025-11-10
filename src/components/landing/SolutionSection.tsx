@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-import ebookBrownies from "@/assets/ebook-brownies-mockup.png";
+import ebookBrownies from "@/assets/portada-mockup.jpg";
 
 export const SolutionSection = () => {
   return (
