@@ -4,7 +4,7 @@ import ebookVentas from "@/assets/ebook-ventas-mockup.jpg";
 
 export const BonusSection = () => {
   const handleCTA = () => {
-    document.getElementById("value-stack")?.scrollIntoView({ behavior: "smooth" });
+    window.open("https://pay.hotmart.com/M102756072H", "_blank");
   };
 
   return (

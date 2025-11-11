@@ -81,6 +81,7 @@ export const ValueStackSection = () => {
             variant="cta" 
             size="xl"
             className="mb-6"
+            onClick={() => window.open("https://pay.hotmart.com/M102756072H", "_blank")}
           >
             ¡SÍ, QUIERO EL PACK <br />COMPLETO AHORA!
           </Button>

@@ -62,6 +62,7 @@ export const FinalCTASection = () => {
         <Button 
           variant="cta" 
           size="xl"
+          onClick={() => window.open("https://pay.hotmart.com/M102756072H", "_blank")}
         >
           SÍ, QUIERO MI NEGOCIO<br /> DE BROWNIES
         </Button>
