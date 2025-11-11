@@ -3,18 +3,14 @@ import heroBrownies from "@/assets/hero-brownies.jpg";
 
 export const BridgeSection = () => {
   return (
-    <section className="relative py-20 px-6 overflow-hidden">
-      {/* Background image with overlay */}
+    <section className="relative py-20 px-6 overflow-hidden bg-gradient-to-br from-[hsl(25,35%,25%)] via-[hsl(25,40%,20%)] to-[hsl(25,35%,15%)]">
+      {/* Subtle texture overlay */}
       <div 
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 opacity-10 bg-cover bg-center mix-blend-overlay"
         style={{ 
-          backgroundImage: `url(${heroBrownies})`,
-          filter: 'brightness(0.3)'
+          backgroundImage: `url(${heroBrownies})`
         }}
       />
-      
-      {/* Gradient overlay for better text readability */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background/80" />
       
       <div className="container max-w-4xl mx-auto relative z-10">
         <div className="text-center space-y-8">
