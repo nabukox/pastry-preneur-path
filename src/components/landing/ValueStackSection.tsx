@@ -74,7 +74,7 @@ export const ValueStackSection = () => {
           </p>
           
           <p className="text-6xl md:text-7xl font-bold text-accent mb-8">
-            $19.99 USD
+            $4.99 USD
           </p>
           
           <Button 

@@ -52,7 +52,7 @@ export const FinalCTASection = () => {
           </div>
           
           <p className="text-3xl font-bold text-value-highlight mb-2">
-            Llévate todo por solo $19.99
+            Llévate todo por solo $4.99
           </p>
           <p className="text-sm text-primary-foreground/80">
             (El bono GRATIS es por tiempo limitado)
