@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 import heroImage from "@/assets/hero-brownies.jpg";
+import ebookBrownies from "@/assets/ebook-brownies-mockup.png";
+import ebookVentas from "@/assets/ebook-ventas-mockup.png";
 
 export const FinalCTASection = () => {
   return (
@@ -20,11 +23,32 @@ export const FinalCTASection = () => {
         </p>
         
         <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-2xl p-8 mb-8 border border-primary-foreground/20">
-          <p className="text-xl text-primary-foreground mb-4 font-semibold">Recordatorio de la Oferta:</p>
+          <p className="text-xl text-primary-foreground mb-6 font-semibold">Recordatorio de la Oferta:</p>
           
-          <div className="space-y-2 mb-6 text-primary-foreground/90">
-            <p>✓ Guía de Brownies Para Emprender (Valor $29.99)</p>
-            <p>✓ Guía "El Arte de Vender... Pasteles" (Valor $49.99)</p>
+          <div className="grid md:grid-cols-2 gap-4 mb-6">
+            <Card className="bg-primary-foreground/5 border-primary-foreground/20 p-4 flex items-center gap-4">
+              <img 
+                src={ebookBrownies} 
+                alt="Guía de Brownies Para Emprender" 
+                className="w-20 h-24 object-cover rounded shadow-lg"
+              />
+              <div className="flex-1">
+                <p className="text-primary-foreground font-medium">Guía de Brownies Para Emprender</p>
+                <p className="text-primary-foreground/80 text-sm">Valor $29.99</p>
+              </div>
+            </Card>
+            
+            <Card className="bg-primary-foreground/5 border-primary-foreground/20 p-4 flex items-center gap-4">
+              <img 
+                src={ebookVentas} 
+                alt='Guía El Arte de Vender... Pasteles' 
+                className="w-20 h-24 object-cover rounded shadow-lg"
+              />
+              <div className="flex-1">
+                <p className="text-primary-foreground font-medium">Guía "El Arte de Vender... Pasteles"</p>
+                <p className="text-primary-foreground/80 text-sm">Valor $49.99</p>
+              </div>
+            </Card>
           </div>
           
           <p className="text-3xl font-bold text-value-highlight mb-2">
