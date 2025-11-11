@@ -15,12 +15,12 @@ const Index = () => {
       <HeroSection />
       <ProblemSection />
       <BridgeSection />
+      <QuickTimelineSection />
       <SolutionSection />
       <BonusSection />
       <ValueStackSection />
       <TestimonialsSection />
       <FAQSection />
-      <QuickTimelineSection />
       <FinalCTASection />
     </main>
   );
