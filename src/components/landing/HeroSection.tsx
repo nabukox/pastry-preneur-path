@@ -38,7 +38,7 @@ export const HeroSection = () => {
           onClick={handleCTA}
           className="animate-pulse hover:animate-none"
         >
-          SÍ, QUIERO MI NEGOCIO DE BROWNIES
+          SÍ, QUIERO MI NEGOCIO <br /> DE BROWNIES
         </Button>
       </div>
     </section>

@@ -77,7 +77,7 @@ export const BonusSection = () => {
             size="xl"
             onClick={handleCTA}
           >
-            OBTENER LOS DOS LIBROS AHORA
+            OBTENER LOS DOS <br /> LIBROS AHORA
           </Button>
         </div>
       </div>
