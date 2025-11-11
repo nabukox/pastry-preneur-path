@@ -6,6 +6,7 @@ import { BonusSection } from "@/components/landing/BonusSection";
 import { ValueStackSection } from "@/components/landing/ValueStackSection";
 import { TestimonialsSection } from "@/components/landing/TestimonialsSection";
 import { FAQSection } from "@/components/landing/FAQSection";
+import { QuickTimelineSection } from "@/components/landing/QuickTimelineSection";
 import { FinalCTASection } from "@/components/landing/FinalCTASection";
 
 const Index = () => {
@@ -19,6 +20,7 @@ const Index = () => {
       <ValueStackSection />
       <TestimonialsSection />
       <FAQSection />
+      <QuickTimelineSection />
       <FinalCTASection />
     </main>
   );
