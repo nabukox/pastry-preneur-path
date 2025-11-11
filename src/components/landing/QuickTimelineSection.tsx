@@ -42,6 +42,7 @@ export const QuickTimelineSection = () => {
             variant="cta" 
             size="xl"
             className="group relative overflow-hidden"
+            onClick={() => window.open("https://pay.hotmart.com/M102756072H", "_blank")}
           >
             <span className="relative z-10">
               COMIENZA AHORA
