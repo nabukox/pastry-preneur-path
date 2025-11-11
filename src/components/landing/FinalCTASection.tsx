@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import heroImage from "@/assets/hero-brownies.jpg";
-import ebookBrownies from "@/assets/ebook-brownies-mockup.png";
-import ebookVentas from "@/assets/ebook-ventas-mockup.png";
+import ebookBrownies from "@/assets/ebook-brownies-mockup.jpg";
+import ebookVentas from "@/assets/ebook-ventas-mockup.jpg";
 
 export const FinalCTASection = () => {
   return (
