@@ -42,7 +42,16 @@ export const QuickTimelineSection = () => {
             variant="cta" 
             size="xl"
             className="group relative overflow-hidden"
-            onClick={() => window.open("https://pay.hotmart.com/M102756072H", "_blank")}
+            onClick={() => {
+              if (typeof (window as any).fbq === 'function') {
+                (window as any).fbq('track', 'InitiateCheckout', {
+                  content_name: 'Brownies Para Emprender',
+                  value: 4.99,
+                  currency: 'USD'
+                });
+              }
+              window.open("https://pay.hotmart.com/M102756072H", "_blank");
+            }}
           >
             <span className="relative z-10">
               COMIENZA AHORA

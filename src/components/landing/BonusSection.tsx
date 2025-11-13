@@ -4,6 +4,13 @@ import ebookVentas from "@/assets/ebook-ventas-mockup.jpg";
 
 export const BonusSection = () => {
   const handleCTA = () => {
+    if (typeof (window as any).fbq === 'function') {
+      (window as any).fbq('track', 'InitiateCheckout', {
+        content_name: 'Brownies Para Emprender',
+        value: 4.99,
+        currency: 'USD'
+      });
+    }
     window.open("https://pay.hotmart.com/M102756072H", "_blank");
   };
 
