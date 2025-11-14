@@ -7,7 +7,7 @@ export const BonusSection = () => {
     if (typeof (window as any).fbq === 'function') {
       (window as any).fbq('track', 'InitiateCheckout', {
         content_name: 'Brownies Para Emprender',
-        value: 4.99,
+        value: 8.99,
         currency: 'USD'
       });
     }

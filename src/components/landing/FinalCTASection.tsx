@@ -121,7 +121,7 @@ export const FinalCTASection = () => {
             
           </div>
           <p className="text-3xl font-bold text-value-highlight mb-2">
-            Llévate todo por solo $4.99
+            Llévate todo por solo $8.99
           </p>
           <p className="text-sm text-primary-foreground/80">
             (El bono GRATIS es por tiempo limitado)
@@ -135,7 +135,7 @@ export const FinalCTASection = () => {
             if (typeof (window as any).fbq === 'function') {
               (window as any).fbq('track', 'InitiateCheckout', {
                 content_name: 'Brownies Para Emprender',
-                value: 4.99,
+                value: 8.99,
                 currency: 'USD'
               });
             }
