@@ -18,8 +18,8 @@ const Index = () => {
       <BridgeSection />
       <QuickTimelineSection />
       <SolutionSection />
-      <BookContentSection />
       <BonusSection />
+      <BookContentSection />
       <ValueStackSection />
       <TestimonialsSection />
       <FAQSection />

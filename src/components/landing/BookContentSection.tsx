@@ -85,7 +85,7 @@ export const BookContentSection = () => {
             Un Vistazo al Interior: ¿Qué Aprenderás?
           </h2>
           <p className="text-xl text-muted-foreground">
-            Tu Transformación, Capítulo a Capítulo
+            El Arte de Vender Pasteles & Repostería
           </p>
         </div>
 
