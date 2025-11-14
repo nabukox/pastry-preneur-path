@@ -3,6 +3,11 @@ import { Card } from "@/components/ui/card";
 import heroImage from "@/assets/hero-brownies.jpg";
 import ebookBrownies from "@/assets/ebook-brownies-mockup.jpg";
 import ebookVentas from "@/assets/ebook-ventas-mockup.jpg";
+import bHelados from "@/assets/bonus-helados.jpg";
+import bPostresF from "@/assets/bonus-postres-frios.jpg";
+import bPostresS from "@/assets/bonus-postres-saludables.jpg";
+import bPostresV from "@/assets/bonus-postres-veganos.jpg";
+import bRecetas from "@/assets/bonus-recetas.jpg";
 
 export const FinalCTASection = () => {
   return (
@@ -50,7 +55,71 @@ export const FinalCTASection = () => {
               </div>
             </Card>
           </div>
-          
+          <div className="grid md:grid-cols-2 gap-4 mb-6">
+            <Card className="bg-primary-foreground/5 border-primary-foreground/20 p-4 flex items-center gap-4">
+              <img 
+                src={bRecetas} 
+                alt="Guía de Brownies Para Emprender" 
+                className="w-20 h-24 object-cover rounded shadow-lg"
+              />
+              <div className="flex-1">
+                <p className="text-primary-foreground font-medium">Más de 200 Exclusivas Recetas</p>
+                <p className="text-primary-foreground/80 text-sm">Valor $$20.00</p>
+              </div>
+            </Card>
+            
+            <Card className="bg-primary-foreground/5 border-primary-foreground/20 p-4 flex items-center gap-4">
+              <img 
+                src={bHelados} 
+                alt='Guía El Arte de Vender... Pasteles' 
+                className="w-20 h-24 object-cover rounded shadow-lg"
+              />
+              <div className="flex-1">
+                <p className="text-primary-foreground font-medium">Helados Saludables</p>
+                <p className="text-primary-foreground/80 text-sm">Valor $15.00</p>
+              </div>
+            </Card>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-4 mb-6">
+            <Card className="bg-primary-foreground/5 border-primary-foreground/20 p-4 flex items-center gap-4">
+              <img 
+                src={bPostresF} 
+                alt="Guía de Brownies Para Emprender" 
+                className="w-20 h-24 object-cover rounded shadow-lg"
+              />
+              <div className="flex-1">
+                <p className="text-primary-foreground font-medium">Postres Fríos</p>
+                <p className="text-primary-foreground/80 text-sm">Valor $10.00</p>
+              </div>
+            </Card>
+            
+            <Card className="bg-primary-foreground/5 border-primary-foreground/20 p-4 flex items-center gap-4">
+              <img 
+                src={bPostresS} 
+                alt='Guía El Arte de Vender... Pasteles' 
+                className="w-20 h-24 object-cover rounded shadow-lg"
+              />
+              <div className="flex-1">
+                <p className="text-primary-foreground font-medium">Postres Saludables</p>
+                <p className="text-primary-foreground/80 text-sm">Valor $15.00</p>
+              </div>
+            </Card>
+          </div>
+          <div className="grid md:grid-cols-2 gap-4 mb-6">
+            <Card className="bg-primary-foreground/5 border-primary-foreground/20 p-4 flex items-center gap-4">
+              <img 
+                src={bPostresV} 
+                alt="Guía de Brownies Para Emprender" 
+                className="w-20 h-24 object-cover rounded shadow-lg"
+              />
+              <div className="flex-1">
+                <p className="text-primary-foreground font-medium">Postres Veganos</p>
+                <p className="text-primary-foreground/80 text-sm">Valor $15.00</p>
+              </div>
+            </Card>
+            
+          </div>
           <p className="text-3xl font-bold text-value-highlight mb-2">
             Llévate todo por solo $4.99
           </p>
