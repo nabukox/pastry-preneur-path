@@ -1,5 +1,10 @@
 import { Check, Gift, Lock, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import bonusRecetas from "@/assets/bonus-recetas.jpg";
+import bonusHelados from "@/assets/bonus-helados.jpg";
+import bonusPostresFrios from "@/assets/bonus-postres-frios.jpg";
+import bonusPostresSaludables from "@/assets/bonus-postres-saludables.jpg";
+import bonusPostresVeganos from "@/assets/bonus-postres-veganos.jpg";
 
 export const ValueStackSection = () => {
   return (
@@ -64,10 +69,69 @@ export const ValueStackSection = () => {
             </div>
           </div>
         </div>
+
+        {/* Bonos Adicionales */}
+        <div className="mb-12">
+          <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 text-foreground">
+            + Estos 5 Recetarios Premium (¡GRATIS!)
+          </h3>
+          
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Bono 1 */}
+            <div className="bg-card rounded-lg p-4 shadow-md border border-border hover:shadow-lg transition-shadow">
+              <div className="aspect-square rounded-md overflow-hidden mb-3">
+                <img src={bonusRecetas} alt="Más de 200 Exclusivas Recetas" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="font-bold text-sm mb-1 text-card-foreground">Más de 200 Exclusivas Recetas</h4>
+              <p className="text-xs text-accent font-semibold mb-2">Valor: $20.00</p>
+              <p className="text-xs text-muted-foreground">Pasteles, galletas, flanes y tartas para toda ocasión.</p>
+            </div>
+
+            {/* Bono 2 */}
+            <div className="bg-card rounded-lg p-4 shadow-md border border-border hover:shadow-lg transition-shadow">
+              <div className="aspect-square rounded-md overflow-hidden mb-3">
+                <img src={bonusHelados} alt="Helados Saludables" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="font-bold text-sm mb-1 text-card-foreground">Helados Saludables</h4>
+              <p className="text-xs text-accent font-semibold mb-2">Valor: $15.00</p>
+              <p className="text-xs text-muted-foreground">Helados cremosos, deliciosos y 100% saludables.</p>
+            </div>
+
+            {/* Bono 3 */}
+            <div className="bg-card rounded-lg p-4 shadow-md border border-border hover:shadow-lg transition-shadow">
+              <div className="aspect-square rounded-md overflow-hidden mb-3">
+                <img src={bonusPostresFrios} alt="Postres Fríos" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="font-bold text-sm mb-1 text-card-foreground">Postres Fríos</h4>
+              <p className="text-xs text-accent font-semibold mb-2">Valor: $10.00</p>
+              <p className="text-xs text-muted-foreground">Cheesecakes, mousses, gelatinas y panna cottas.</p>
+            </div>
+
+            {/* Bono 4 */}
+            <div className="bg-card rounded-lg p-4 shadow-md border border-border hover:shadow-lg transition-shadow">
+              <div className="aspect-square rounded-md overflow-hidden mb-3">
+                <img src={bonusPostresSaludables} alt="Postres Saludables" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="font-bold text-sm mb-1 text-card-foreground">Postres Saludables</h4>
+              <p className="text-xs text-accent font-semibold mb-2">Valor: $15.00</p>
+              <p className="text-xs text-muted-foreground">Bajos en azúcar, sin harinas refinadas, con super-ingredientes.</p>
+            </div>
+
+            {/* Bono 5 */}
+            <div className="bg-card rounded-lg p-4 shadow-md border border-border hover:shadow-lg transition-shadow">
+              <div className="aspect-square rounded-md overflow-hidden mb-3">
+                <img src={bonusPostresVeganos} alt="Postres Veganos" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="font-bold text-sm mb-1 text-card-foreground">Postres Veganos</h4>
+              <p className="text-xs text-accent font-semibold mb-2">Valor: $15.00</p>
+              <p className="text-xs text-muted-foreground">Sin huevo, leche ni mantequilla. Premium plant-based.</p>
+            </div>
+          </div>
+        </div>
         
         <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl p-8 md:p-12 text-center shadow-strong">
           <p className="text-xl text-muted-foreground mb-2">Valor Total:</p>
-          <p className="text-3xl text-muted-foreground line-through mb-4">$79.98 USD</p>
+          <p className="text-3xl text-muted-foreground line-through mb-4">$154.98 USD</p>
           
           <p className="text-2xl md:text-3xl text-foreground font-semibold mb-4">
             Consíguelo todo hoy por un solo pago de:
