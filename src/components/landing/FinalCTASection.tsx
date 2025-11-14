@@ -139,7 +139,7 @@ export const FinalCTASection = () => {
                 currency: 'USD'
               });
             }
-            window.open("https://pay.hotmart.com/M102756072H", "_blank");
+            window.open("https://pay.hotmart.com/A102946187L", "_blank");
           }}
         >
           SÍ, QUIERO MI NEGOCIO<br /> DE BROWNIES
