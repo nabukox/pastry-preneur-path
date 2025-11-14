@@ -5,6 +5,7 @@ import { SolutionSection } from "@/components/landing/SolutionSection";
 import { BrowniesContentSection } from "@/components/landing/BrowniesContentSection";
 import { BookContentSection } from "@/components/landing/BookContentSection";
 import { BonusSection } from "@/components/landing/BonusSection";
+import { BonusesSection } from "@/components/landing/BonusesSection";
 import { ValueStackSection } from "@/components/landing/ValueStackSection";
 import { TestimonialsSection } from "@/components/landing/TestimonialsSection";
 import { FAQSection } from "@/components/landing/FAQSection";
@@ -20,6 +21,7 @@ const Index = () => {
       <QuickTimelineSection />
       <SolutionSection />
       <BrowniesContentSection />
+      <BonusesSection />
       <BonusSection />
       <BookContentSection />
       <ValueStackSection />
