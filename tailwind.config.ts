@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['Bebas Neue', 'sans-serif'],
+        display: ['Momo Trust Display', 'sans-serif'],
         body: ['Plus Jakarta Sans', 'sans-serif'],
       },
       colors: {
