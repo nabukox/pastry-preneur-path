@@ -48,7 +48,7 @@ export const BonusesSection = () => {
     <section className="py-20 px-6 bg-background">
       <div className="container max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-foreground">
+          <h2 className="text-3xl md:text-5xl mb-4 text-foreground">
             ¡Llévate la Receta Maestra... Y TODO este Paquete de Bonos GRATIS!
           </h2>
           <p className="text-xl md:text-2xl font-semibold text-accent">
@@ -70,7 +70,7 @@ export const BonusesSection = () => {
                   </div>
                   
                   <div className="p-6 md:pr-8">
-                    <h3 className="text-2xl md:text-3xl font-bold mb-3 text-foreground">
+                    <h3 className="text-2xl md:text-3xl mb-3 text-foreground">
                       {bonus.title}
                     </h3>
                     <p className="text-xl font-semibold text-value-highlight mb-4">

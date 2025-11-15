@@ -19,7 +19,7 @@ export const FinalCTASection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-primary/90 to-primary" />
       
       <div className="container max-w-4xl mx-auto relative z-10 text-center">
-        <h2 className="text-3xl md:text-5xl font-bold mb-6 text-primary-foreground">
+        <h2 className="text-3xl md:text-5xl mb-6 text-primary-foreground">
           No vendas solo postres. Vende celebraciones, antojos y momentos de felicidad.
         </h2>
         

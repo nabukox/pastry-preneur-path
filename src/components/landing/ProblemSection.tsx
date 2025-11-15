@@ -4,7 +4,7 @@ export const ProblemSection = () => {
   return (
     <section className="py-20 px-6 bg-background">
       <div className="container max-w-5xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 text-foreground">
+        <h2 className="text-4xl md:text-5xl text-center mb-8 text-foreground">
           Ser un "repostero apasionado" no paga las facturas.
         </h2>
         

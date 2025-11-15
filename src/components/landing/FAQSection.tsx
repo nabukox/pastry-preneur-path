@@ -9,7 +9,7 @@ export const FAQSection = () => {
   return (
     <section className="py-20 px-6 bg-background">
       <div className="container max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-foreground">
+        <h2 className="text-3xl md:text-5xl text-center mb-12 text-foreground">
           Preguntas Frecuentes de Futuros Empresarios
         </h2>
         

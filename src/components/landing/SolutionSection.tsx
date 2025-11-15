@@ -7,7 +7,7 @@ export const SolutionSection = () => {
       <div className="container max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
+            <h2 className="text-3xl md:text-4xl mb-6 text-foreground">
               Un Producto Estrella. Rentable y Adictivo.
             </h2>
             

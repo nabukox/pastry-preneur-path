@@ -10,13 +10,13 @@ export const ValueStackSection = () => {
   return (
     <section id="value-stack" className="py-20 px-6 bg-background">
       <div className="container max-w-5xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-foreground">
+        <h2 className="text-3xl md:text-5xl text-center mb-12 text-foreground">
           Esto es todo lo que recibirás HOY para construir tu negocio:
         </h2>
         
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="bg-card rounded-xl p-8 shadow-strong border-2 border-border">
-            <h3 className="text-2xl font-bold mb-2 text-card-foreground">
+            <h3 className="text-2xl mb-2 text-card-foreground">
               E-book: Brownies Estilo New York Para Emprender
             </h3>
             <p className="text-muted-foreground mb-6">Valor: <span className="line-through">$29.99 USD</span></p>
@@ -44,7 +44,7 @@ export const ValueStackSection = () => {
             <div className="mb-2 inline-block bg-accent text-accent-foreground px-3 py-1 rounded-full text-sm font-bold">
               BONO POR TIEMPO LIMITADO
             </div>
-            <h3 className="text-2xl font-bold mb-2 text-foreground">
+            <h3 className="text-2xl mb-2 text-foreground">
               E-book: El Arte de Vender... Pasteles
             </h3>
             <p className="text-muted-foreground mb-6">Valor: <span className="line-through">$49.99 USD</span></p>
@@ -72,7 +72,7 @@ export const ValueStackSection = () => {
 
         {/* Bonos Adicionales */}
         <div className="mb-12">
-          <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 text-foreground">
+          <h3 className="text-2xl md:text-3xl text-center mb-8 text-foreground">
             + Estos 5 Recetarios Premium (¡GRATIS!)
           </h3>
           
@@ -82,7 +82,7 @@ export const ValueStackSection = () => {
               <div className="aspect-square rounded-md overflow-hidden mb-3">
                 <img src={bonusRecetas} alt="Más de 200 Exclusivas Recetas" className="w-full h-full object-cover" />
               </div>
-              <h4 className="font-bold text-sm mb-1 text-card-foreground">Más de 200 Exclusivas Recetas</h4>
+              <h4 className="text-sm mb-1 text-card-foreground">Más de 200 Exclusivas Recetas</h4>
               <p className="text-xs text-accent font-semibold mb-2">Valor: $20.00</p>
               <p className="text-xs text-muted-foreground">Pasteles, galletas, flanes y tartas para toda ocasión.</p>
             </div>
@@ -92,7 +92,7 @@ export const ValueStackSection = () => {
               <div className="aspect-square rounded-md overflow-hidden mb-3">
                 <img src={bonusHelados} alt="Helados Saludables" className="w-full h-full object-cover" />
               </div>
-              <h4 className="font-bold text-sm mb-1 text-card-foreground">Helados Saludables</h4>
+              <h4 className="text-sm mb-1 text-card-foreground">Helados Saludables</h4>
               <p className="text-xs text-accent font-semibold mb-2">Valor: $15.00</p>
               <p className="text-xs text-muted-foreground">Helados cremosos, deliciosos y 100% saludables.</p>
             </div>
@@ -102,7 +102,7 @@ export const ValueStackSection = () => {
               <div className="aspect-square rounded-md overflow-hidden mb-3">
                 <img src={bonusPostresFrios} alt="Postres Fríos" className="w-full h-full object-cover" />
               </div>
-              <h4 className="font-bold text-sm mb-1 text-card-foreground">Postres Fríos</h4>
+              <h4 className="text-sm mb-1 text-card-foreground">Postres Fríos</h4>
               <p className="text-xs text-accent font-semibold mb-2">Valor: $10.00</p>
               <p className="text-xs text-muted-foreground">Cheesecakes, mousses, gelatinas y panna cottas.</p>
             </div>
@@ -112,7 +112,7 @@ export const ValueStackSection = () => {
               <div className="aspect-square rounded-md overflow-hidden mb-3">
                 <img src={bonusPostresSaludables} alt="Postres Saludables" className="w-full h-full object-cover" />
               </div>
-              <h4 className="font-bold text-sm mb-1 text-card-foreground">Postres Saludables</h4>
+              <h4 className="text-sm mb-1 text-card-foreground">Postres Saludables</h4>
               <p className="text-xs text-accent font-semibold mb-2">Valor: $15.00</p>
               <p className="text-xs text-muted-foreground">Bajos en azúcar, sin harinas refinadas, con super-ingredientes.</p>
             </div>
@@ -122,7 +122,7 @@ export const ValueStackSection = () => {
               <div className="aspect-square rounded-md overflow-hidden mb-3">
                 <img src={bonusPostresVeganos} alt="Postres Veganos" className="w-full h-full object-cover" />
               </div>
-              <h4 className="font-bold text-sm mb-1 text-card-foreground">Postres Veganos</h4>
+              <h4 className="text-sm mb-1 text-card-foreground">Postres Veganos</h4>
               <p className="text-xs text-accent font-semibold mb-2">Valor: $15.00</p>
               <p className="text-xs text-muted-foreground">Sin huevo, leche ni mantequilla. Premium plant-based.</p>
             </div>

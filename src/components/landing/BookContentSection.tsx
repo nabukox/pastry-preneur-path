@@ -81,7 +81,7 @@ export const BookContentSection = () => {
       
       <div className="container max-w-5xl mx-auto relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
+          <h2 className="text-4xl md:text-5xl mb-4 text-foreground">
             Un Vistazo al Interior: ¿Qué Aprenderás?
           </h2>
           <p className="text-xl text-muted-foreground">
@@ -104,7 +104,7 @@ export const BookContentSection = () => {
                       <Icon className="w-6 h-6 text-accent" />
                     </div>
                     <div>
-                      <h3 className="text-lg md:text-xl font-bold text-foreground">
+                      <h3 className="text-lg md:text-xl text-foreground">
                         {section.title}
                       </h3>
                     </div>
