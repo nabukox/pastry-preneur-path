@@ -8,81 +8,84 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 35 25% 97%;
-    --foreground: 25 15% 15%;
+    /* Claro #E1C7B0 = hsl(28, 46%, 79%) */
+    --background: 28 46% 79%;
+    --foreground: 6 60% 7%; /* Negro #1C0907 */
 
-    --card: 0 0% 100%;
-    --card-foreground: 25 15% 15%;
+    --card: 28 46% 85%;
+    --card-foreground: 6 60% 7%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 25 15% 15%;
+    --popover: 28 46% 85%;
+    --popover-foreground: 6 60% 7%;
 
-    --primary: 25 45% 25%;
-    --primary-foreground: 35 30% 95%;
+    /* Oscuro-chocolate #381916 = hsl(5, 44%, 15%) */
+    --primary: 5 44% 15%;
+    --primary-foreground: 28 46% 79%;
 
-    --secondary: 35 40% 90%;
-    --secondary-foreground: 25 45% 25%;
+    --secondary: 28 40% 70%;
+    --secondary-foreground: 5 44% 15%;
 
-    --muted: 35 30% 92%;
-    --muted-foreground: 25 10% 45%;
+    --muted: 28 35% 75%;
+    --muted-foreground: 5 30% 30%;
 
-    --accent: 140 65% 45%;
-    --accent-foreground: 0 0% 100%;
+    /* Rojo #D00607 = hsl(359, 94%, 42%) */
+    --accent: 359 94% 42%;
+    --accent-foreground: 28 46% 79%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 28 46% 79%;
 
-    --border: 35 20% 88%;
-    --input: 35 20% 88%;
-    --ring: 25 45% 25%;
+    --border: 28 35% 70%;
+    --input: 28 35% 70%;
+    --ring: 359 94% 42%;
 
     --radius: 0.75rem;
 
     /* Custom tokens for landing page */
-    --hero-gradient-start: 25 50% 20%;
-    --hero-gradient-end: 35 45% 35%;
+    --hero-gradient-start: 5 44% 15%; /* Oscuro-chocolate */
+    --hero-gradient-end: 6 60% 7%; /* Negro */
     
-    --cta-primary: 140 70% 48%;
-    --cta-primary-hover: 140 70% 42%;
+    --cta-primary: 359 94% 42%; /* Rojo */
+    --cta-primary-hover: 359 94% 36%;
     
-    --value-highlight: 45 95% 55%;
+    --value-highlight: 359 94% 52%;
     
-    --section-alt: 35 35% 94%;
+    --section-alt: 28 46% 85%;
     
-    --shadow-soft: 0 4px 20px -2px hsl(25 20% 60% / 0.15);
-    --shadow-strong: 0 10px 40px -5px hsl(25 30% 40% / 0.25);
+    --shadow-soft: 0 4px 20px -2px hsl(5 44% 15% / 0.15);
+    --shadow-strong: 0 10px 40px -5px hsl(5 44% 15% / 0.3);
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
-    --background: 25 25% 12%;
-    --foreground: 35 25% 92%;
+    --background: 6 60% 7%; /* Negro */
+    --foreground: 28 46% 79%; /* Claro */
 
-    --card: 25 25% 15%;
-    --card-foreground: 35 25% 92%;
+    --card: 5 44% 15%; /* Oscuro-chocolate */
+    --card-foreground: 28 46% 79%;
 
-    --popover: 25 25% 15%;
-    --popover-foreground: 35 25% 92%;
+    --popover: 5 44% 15%;
+    --popover-foreground: 28 46% 79%;
 
-    --primary: 35 30% 85%;
-    --primary-foreground: 25 45% 20%;
+    --primary: 28 46% 79%;
+    --primary-foreground: 5 44% 15%;
 
-    --secondary: 25 20% 22%;
-    --secondary-foreground: 35 25% 92%;
+    --secondary: 5 44% 20%;
+    --secondary-foreground: 28 46% 79%;
 
-    --muted: 25 20% 20%;
-    --muted-foreground: 35 15% 60%;
+    --muted: 5 44% 18%;
+    --muted-foreground: 28 35% 65%;
 
-    --accent: 140 60% 50%;
-    --accent-foreground: 25 25% 12%;
+    --accent: 359 94% 52%;
+    --accent-foreground: 28 46% 79%;
 
     --destructive: 0 70% 50%;
-    --destructive-foreground: 35 25% 92%;
+    --destructive-foreground: 28 46% 79%;
 
-    --border: 25 20% 25%;
-    --input: 25 20% 25%;
-    --ring: 35 30% 85%;
+    --border: 5 44% 25%;
+    --input: 5 44% 25%;
+    --ring: 359 94% 52%;
   }
 }
 
@@ -92,6 +95,10 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
   }
 }
