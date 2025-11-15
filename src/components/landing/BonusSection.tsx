@@ -18,7 +18,7 @@ export const BonusSection = () => {
     <section className="py-20 px-6 bg-primary/5">
       <div className="container max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
+          <h2 className="text-3xl md:text-5xl mb-6 text-foreground">
             Pero una gran receta no es suficiente. Por eso, hoy te REGALAMOS el "ingrediente secreto"...
           </h2>
           
@@ -42,7 +42,7 @@ export const BonusSection = () => {
           </div>
           
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-foreground">
+            <h3 className="text-2xl mb-6 text-foreground">
               Por qué este Bono es la Clave:
             </h3>
             

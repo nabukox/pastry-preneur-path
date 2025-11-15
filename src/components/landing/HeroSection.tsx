@@ -20,11 +20,11 @@ export const HeroSection = () => {
           Para Reposteros Apasionados Que Quieren Emprender
         </p>
         
-        <h1 className="text-primary-foreground text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+        <h1 className="text-primary-foreground text-4xl md:text-6xl lg:text-7xl mb-6 leading-tight">
           ¿Amas hornear pero no sabes vender?
         </h1>
         
-        <p className="text-primary-foreground text-4xl md:text-5xl font-bold mb-6">
+        <p className="text-primary-foreground text-4xl md:text-5xl mb-6">
           Transforma tu pasión en un negocio rentable.
         </p>
         

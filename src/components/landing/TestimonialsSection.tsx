@@ -4,7 +4,7 @@ export const TestimonialsSection = () => {
   return (
     <section className="py-20 px-6 bg-section-alt">
       <div className="container max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-foreground">
+        <h2 className="text-3xl md:text-5xl text-center mb-12 text-foreground">
           Ellos ya están horneando y vendiendo:
         </h2>
         
